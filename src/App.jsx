@@ -2,14 +2,25 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import ImageUploader from './ImageUploader';
+import ImageUploader from './components/ImageUploader';
+import ContactForm from './components/ContactForm';
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
+
 
 function App() {
   return (
-    <div>
-      <h1>Tarea Lenguajes IV - React</h1>
-      <ImageUploader />
-    </div>
+    <Router>
+      <nav >
+        <Link to="/" style={{ marginRight: "10px" }}>Subir Imagen</Link>
+        <Link to="/contacto">Contacto</Link>
+      </nav>
+
+      <Routes>
+        <Route path="/" element={<ImageUploader />} />
+        <Route path="/contacto" element={<ContactForm />} />
+      </Routes>
+    </Router>
   );
 }
 
