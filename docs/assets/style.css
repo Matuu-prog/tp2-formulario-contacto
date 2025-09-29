@@ -1,6 +1,0 @@
-body{font-family:Arial,Helvetica,sans-serif;background:#f9fafb;margin:0;padding:20px;text-align:center}
-h1{color:#2563eb}
-button,input[type=file]{margin-top:10px;padding:10px 15px;border:none;border-radius:6px;cursor:pointer}
-button{background:#2563eb;color:white}
-.preview img{margin-top:15px;max-width:90%;border-radius:8px;border:1px solid #ddd}
-.error{color:#c02626;font-weight:bold;margin-top:10px}
