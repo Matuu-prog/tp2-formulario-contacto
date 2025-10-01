@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Tarea-tp2-lenguajes/', // 👈 muy importante
+  base: '/tp2-formulario-contacto/',
 })

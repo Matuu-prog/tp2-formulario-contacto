@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import ImageUploader from './components/ImageUploader';
 import ContactForm from './components/ContactForm';
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { HashRouter as Router} from "react-router-dom";
 
 
 
